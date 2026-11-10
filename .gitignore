@@ -1,0 +1,41 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Python virtual environments
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Frontend build files
+frontend/dist/
+
+# Private uploaded resumes and generated files
+backend/uploads/
+backend/resumes/
+uploads/
+resumes/
+
+# Logs and temporary files
+*.log
+temp/
+tmp/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+.vscode/
